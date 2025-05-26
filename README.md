@@ -1,16 +1,15 @@
 # L2Assignemnt2 Q&A
 
-# What is PostgreSQL?
+---
+
+## What is PostgreSQL?
 
 PostgreSQL একটি রিলেশনাল টেবিল ডেটাবেস ম্যানেজমেন্ট সিস্টেম এবং এটি ওপেন সোর্স । এটি বড় মাপের অ্যাপ্লিকেশন, ওয়েব সার্ভিস, এবং বিশেষ কাজের জন্য ব্যবহার  করা হয়। 
 
----
 
 ## Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 
 Primary key - এমন একটি কলাম যেটি সব টেবিল এর রো  গুলাকে ইউনিক করতে সাহায্য করে । 
-
-
 Example:
 ```sql
 CREATE TABLE users (
@@ -20,7 +19,6 @@ CREATE TABLE users (
 ```
 
 Foreign key - এমন একটি কলাম যা অন্য টেবিলের প্রাইমারি কী-এর সাথে সম্পর্ক তৈরি করতে সাহায্য করে । 
-
 Example:
 ```sql
 CREATE TABLE orders (
